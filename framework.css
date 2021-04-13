@@ -1,0 +1,107 @@
+/*
+Framework v1.0
+Autor: André J. Bez Birolo
+Co-Criador: Cayman Sistemas
+*/
+.flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.flex-1 {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+.flex-2 {
+	-webkit-box-flex: 2;
+	-ms-flex: 2;
+	flex: 2;
+}
+.flex-3 {
+	-webkit-box-flex: 3;
+	-ms-flex: 3;
+	flex: 3;
+}
+.flex-3 {
+	-webkit-box-flex: 3;
+	-ms-flex: 3;
+	flex: 3;
+}
+.wrap {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.space-btwn {
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.center-full {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.center-x-row {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.center-y-row,
+.center-x-column {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.justify-start {
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: start;
+}
+.column {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.w-50 {
+	width: 50%;
+}
+.margin-auto {
+	margin: 0 auto;
+}
+.transition {
+	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+}
+.txt-center {
+	text-align: center;
+}
+.font-light {
+	font-weight: 300;
+}
+.font-bold {
+	font-weight: bold;
+}
+.font-italic {
+	font-style: italic;
+}
+.font-uppercase {
+	text-transform: uppercase;
+}
+@media(max-width: 1024px){
+	.hide-from-tablet {
+		display: none;
+	}
+}
+@media(max-width: 768px){
+	.hide-from-phone {
+		display: none;
+	}
+	.w-50 {
+		width: 100%;
+	}
+}
