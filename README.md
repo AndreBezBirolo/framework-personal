@@ -106,4 +106,4 @@ Oculta apartir do tablet (1024px).
 Oculta apartir do celular (768px).
 
 ---
-por [André Bez Birolo](https://gist.github.com/AndreBezBirolo) 
+por [André Bez Birolo](https://github.com/AndreBezBirolo) 
